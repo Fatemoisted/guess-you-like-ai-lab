@@ -1,0 +1,9 @@
+{
+  "name": "guess-you-like-workbench",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "A grounded, interactive AI product case study for local-commerce recommendation cards.",
+  "scripts": { "start": "node server.mjs", "test": "node --test tests/*.test.mjs", "check": "node --check app/main.js && node --check app/core.js && node --check server.mjs" },
+  "engines": { "node": ">=20" }
+}
